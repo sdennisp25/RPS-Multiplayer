@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>RPG-Multiplayer</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="./css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-4">Rock, Paper, Scissors!</h1>
+				<p class="lead">The game is simple! Pick your bet and out win your opponent!</p>
+				<button id="start-game-button">Start Game</button>
+			</div>
+
+			<nav class="navbar fixed-bottom navbar-light bg-light">
+				<a class="navbar-brand" href="#">Multiplayer est. 2018</a>
+			</nav>
+		</div>
+		
+		<div class="row">
+
+			<img id="rock" src="images/rock.jpeg">
+			<img id="paper" src="images/paper.jpeg">
+			<img id="scissors" src="images/scissors.jpeg">
+
+
+			<div class="battle">
+				<div id="userBox"><h3>You Chose: </h3></div>
+				<div id="enemyBox"><h3>Enemy Chose: </h3></div>
+
+			</div>
+
+
+
+		</div>
+		
+		<div class="form-group">
+			<label>Message Center</label>
+			<textarea class="form-control" id="text-area" rows="3"></textarea>
+		</div>
+
+	
+</body>
+
+
+<script type="text/javascript" src="./javascript/app.js"></script>
+
+
+</html>

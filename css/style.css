@@ -1,0 +1,68 @@
+.jumbotron {
+	margin: 0 auto;
+}
+img {
+	width: 250px;
+	height: 250px;
+	margin-right: 1%;
+}
+h3 {
+	text-decoration: underline;
+}
+
+.row {
+	box-sizing: border-box;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.battle {
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+}
+
+#start-game-button {
+	margin-left: 17%;
+}
+
+#userBox { 
+	width: 49%;
+	height: 50%;
+	border: 1px solid black;
+	margin-right: 1%;
+	text-align: center;
+	grid-column: 1/4;
+	grid-row: 1;
+}
+#enemyBox { 
+	width: 49%;
+	height: 50%;
+	border: 1px solid black;
+	text-align: center;
+	grid-column: 1/4;
+	grid-row: 1;
+}
+#compareBox {
+	width: 30%;
+	height: 20%;
+	border: 1px solid black;
+	margin-bottom: 0;
+	grid-row: 2;
+
+}
+.form-group {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.navbar-brand {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%; 
+	padding: 8px;
+	background-color: rgb(200, 200, 250, 0.3);
+}
